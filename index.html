@@ -15,6 +15,7 @@
             system</h1>
     </header>
     <main>
+        <!-- total deposit, withdraw and balance show section -->
         <section class="mt-12">
             <div class="grid grid-cols-3 gap-4 w-3/4 mx-auto">
                 <div class="bg-yellow-400 rounded-lg p-8 text-center">
@@ -28,6 +29,22 @@
                 <div class="bg-purple-400 rounded-lg p-8 text-center">
                     <h4 class="text-2xl font-semibold">Balance</h4>
                     <h2 class="text-4xl mt-2">$<span id="balance-total" class="text-4xl">1240</span></h2>
+                </div>
+            </div>
+        </section>
+        <!-- deposite and withjdraw section -->
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-4 w-3/4 mx-auto">
+                <div class="bg-sky-400 rounded-lg p-8 ">
+                    <h3 class="text-4xl mb-4">Please Deposite</h3>
+                    <input id="deposit-field" class="w-3/4 px-4 py-3 rounded block" type="text" placeholder="$ you want to deposit">
+                    <button id="btn-deposit" class="bg-blue-600 text-white px-6 py-3 mt-2 rounded hover:bg-blue-800" type="submit">Submit</button>
+                </div>
+                <div class="bg-purple-400 rounded-lg p-8 ">
+                    <h3 class="text-4xl mb-4">Please Withdraw</h3>
+                    <input id="withdraw-field" class="w-3/4 px-4 py-3 rounded block" type="text" placeholder="$ you want to withdraw">
+                    <button id="btn-withdraw" class="bg-blue-600 text-white px-6 py-3 mt-2 rounded hover:bg-blue-800"
+                    type="submit">Submit</button>
                 </div>
             </div>
         </section>
